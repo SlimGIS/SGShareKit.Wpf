@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace SlimGis.MapKit.Wpf.Toolkits
+namespace SlimGis.Sharedkits.Wpf
 {
     /// <summary>
     /// Interaction logic for SampleHeader.xaml
@@ -12,7 +12,7 @@ namespace SlimGis.MapKit.Wpf.Toolkits
     public partial class SampleHeader : Control
     {
         public static readonly DependencyProperty SourceProperty =
-            DependencyProperty.Register("Source", typeof(ImageSource), typeof(SampleHeader), new PropertyMetadata(new BitmapImage(new Uri("pack://application:,,,/SGMapKit.Wpf.Toolkits;Component/Images/SlimGIS-Logo-40.png"))));
+            DependencyProperty.Register("Source", typeof(ImageSource), typeof(SampleHeader), new PropertyMetadata(new BitmapImage(new Uri("pack://application:,,,/SGShareKit.Wpf;Component/Images/SlimGIS-Logo-40.png", UriKind.RelativeOrAbsolute))));
 
         public SampleHeader()
         {

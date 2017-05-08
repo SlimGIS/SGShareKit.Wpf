@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SGMapKit.Wpf.Toolkits")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("SGShareKit.Wpf")]
+[assembly: AssemblyDescription("This assembly contains the shared toolkits for wpf.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SGMapKit.Wpf.Toolkits")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("SlimGIS")]
+[assembly: AssemblyProduct("SGShareKit.Wpf")]
+[assembly: AssemblyCopyright("Copyright © SlimGIS. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
