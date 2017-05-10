@@ -29,7 +29,7 @@
                            FontSize="24"
                            FontWeight="Bold"
                            Foreground="{DynamicResource HeadLabelBrush}"
-                           Text="SlimGIS MapKit Samples for WPF" />
+                           Text="{TemplateBinding Title}" />
                 </StackPanel>
             </Border>
         </ControlTemplate>
