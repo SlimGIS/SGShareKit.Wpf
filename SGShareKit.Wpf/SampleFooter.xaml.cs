@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace SlimGis.Sharedkits.Wpf
+namespace SlimGis.ShareKit.Wpf
 {
     /// <summary>
     /// Interaction logic for Footer.xaml
