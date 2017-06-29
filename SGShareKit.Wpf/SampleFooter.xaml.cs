@@ -16,7 +16,7 @@ namespace SlimGis.ShareKit.Wpf
 
         private void QuestionButton_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://forums.slimgis.com/");
+            Process.Start("https://forums.slimgis.com/");
         }
 
         private void ContactButton_Click(object sender, RoutedEventArgs e)
@@ -26,12 +26,12 @@ namespace SlimGis.ShareKit.Wpf
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://www.slimgis.com/");
+            Process.Start("https://www.slimgis.com/");
         }
 
         private void LearnMoreButton_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("http://blog.slimgis.com/");
+            Process.Start("https://blog.slimgis.com/");
         }
     }
 }
